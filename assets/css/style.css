@@ -403,7 +403,7 @@ img {
   }
   .home__data p {
     position: absolute;
-    top: 150px;
+    top: 210px;
     font-size: x-large;
     font-weight: bold;
   }
@@ -419,7 +419,7 @@ img {
   }
   .home__data p {
     position: absolute;
-    top: 150px;
+    top: 210px;
     font-size: x-large;
     font-weight: bold;
   }
@@ -474,7 +474,7 @@ img {
   }
   .home__data p {
     position: absolute;
-    top: 150px;
+    top: 270px;
     font-size: x-large;
     font-weight: bold;
   }
@@ -531,8 +531,8 @@ img {
   }
   .home__data p {
     position: absolute;
-    top: 270px;
-    font-size: x-large;
+    top: 420px;
+    font-size: 2rem;
     font-weight: bold;
   }
   .home {
