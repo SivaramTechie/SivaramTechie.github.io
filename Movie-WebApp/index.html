@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flimax</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a90dbc8bae.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="box"></div>
+    <header>
+      <nav>
+        <div class="logo">
+          <i class="fa-solid fa-clapperboard"></i>
+          <p>Flimax</p>
+        </div>
+        <div class="list">
+          <ul>
+            <li>
+              <a
+                href="https://github.com/SivaramTechie/githubprofiles.github.io"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://discordapp.com/users/1017480144618790974"
+                ><i class="fa-brands fa-discord"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="heading">
+        <h1>Which Movie do you</h1>
+        <h1>want to see?</h1>
+      </div>
+      <form>
+        <div class="search-container">
+          <div class="search-element">
+            <div class="inputs">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                id="movie-search-box"
+                class="form-control"
+                placeholder="Search for a Movie..."
+                onkeyup="findMovies()"
+                onclick="findMovies()"
+              />
+
+              <div class="search-list" id="search-list"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="result-container">
+            <div class="result-grid" id="result-grid">
+              <!-- movie information here -->
+              <!-- <div class="movie-poster">
+                <img src="assets/images/medium-cover.jpg" alt="movie poster" />
+              </div>
+              <div class="movie-info">
+                <h3 class="movie-title">Guardians of the Galaxy Vol. 2</h3>
+                <ul class="movie-misc-info">
+                  <li class="year">Year: 2017</li>
+                  <li class="rated">Ratings: PG-13</li>
+                  <li class="released">Released: 05 May 2017</li>
+                </ul>
+                <p class="genre"><b>Genre:</b> Action, Adventure, Comedy</p>
+                <p class="writer">
+                  <b>Writer:</b> James Gunn, Don Abnett, Andy Lanning
+                </p>
+                <p class="actors">
+                  <b>Actors: </b>Chris Pratt, Zoe Saldana, Dave Bautista
+                </p>
+                <p class="plot">
+                  <b>Plot:</b> The Guardians struggle to keep together as a team
+                  while dealing with their personal family issues, notably
+                  Star-Lord's ecounter with his father the ambitious celestial
+                  being Ego.
+                </p>
+                <p class="language"><b>Language:</b> English</p>
+                <p class="awards">
+                  <b><i class="fas fa-award"></i></b> Nominated for 1 Oscar
+                </p>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
